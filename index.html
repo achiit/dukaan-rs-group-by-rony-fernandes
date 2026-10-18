@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Group | One-Stop Destination for Excellence</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-gold: #D4AF37;
+            --dark-bg: #11141a;
+            --card-bg: #1a1f29;
+            --text-light: #f8f9fa;
+        }
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        .navbar {
+            background-color: rgba(17, 20, 26, 0.95) !important;
+            border-bottom: 2px solid var(--primary-gold);
+        }
+        .navbar-brand, .nav-link {
+            color: var(--text-light) !important;
+        }
+        .nav-link:hover {
+            color: var(--primary-gold) !important;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(17, 20, 26, 1));
+            padding: 100px 0;
+            text-align: center;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .gold-text {
+            color: var(--primary-gold);
+        }
+        .gold-border {
+            border-color: var(--primary-gold) !important;
+        }
+        .btn-gold {
+            background-color: var(--primary-gold);
+            color: #000;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            background-color: #bfa030;
+            color: #000;
+            transform: translateY(-2px);
+        }
+        .service-card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-gold);
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.1);
+        }
+        .icon-box {
+            font-size: 2.5rem;
+            color: var(--primary-gold);
+            margin-bottom: 20px;
+        }
+        .founder-section {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        footer {
+            background-color: #0b0d10;
+            border-top: 2px solid var(--primary-gold);
+        }
+        .social-link {
+            color: var(--text-light);
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-link:hover {
+            color: var(--primary-gold);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#"><span class="gold-text">RS</span> GROUP</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-link"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#divisions">Our Divisions</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#founder">The Founder</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3"><span class="gold-text">RS GROUPS</span></h1>
+            <p class="lead fs-4 gold-text mb-4">Your One-Stop Destination for Excellence</p>
+            <p class="fs-5 max-width-700 mx-auto mb-5 text-secondary">Thousands of Problems, 1 Solution — Only RS Group. We bridge the gap between your aspirations and reality across a diversified ecosystem of services.</p>
+            <a href="https://wa.me/916355375265" target="_blank" class="btn btn-gold btn-lg px-5 py-3 rounded-pill"><i class="fab fa-whatsapp me-2"></i>Connect on WhatsApp</a>
+        </div>
+    </header>
+
+    <!-- Divisions Section -->
+    <section id="divisions" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Our Core <span class="gold-text">Divisions</span></h2>
+                <div class="bg-gold mx-auto" style="width: 80px; height: 3px; background-color: var(--primary-gold);"></div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- RS Developers -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card p-4 text-center">
+                        <div class="icon-box"><i class="fas fa-building"></i></div>
+                        <h3 class="h4 fw-bold mb-3">RS Developers</h3>
+                        <p class="text-secondary small mb-0">Building the future, one property at a time. Premium residential projects, modern commercial spaces, and strategic land acquisition across India.</p>
+                    </div>
+                </div>
+                
+                <!-- RS Tourism -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card p-4 text-center">
+                        <div class="icon-box"><i class="fas fa-plane-departure"></i></div>
+                        <h3 class="h4 fw-bold mb-3">RS Tourism</h3>
+                        <p class="text-secondary small mb-0">Your gateway to extraordinary experiences. From curated pan-India holiday packages to seamless travel arrangements and premium tours.</p>
+                    </div>
+                </div>
+
+                <!-- RS Advisors -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card p-4 text-center">
+                        <div class="icon-box"><i class="fas fa-hand-holding-dollar"></i></div>
+                        <h3 class="h4 fw-bold mb-3">RS Advisors</h3>
+                        <p class="text-secondary small mb-0">Financial clarity in a complex world. Expert consultancy and simplified processing for all types of home, mortgage, and business loan requirements.</p>
+                    </div>
+                </div>
+
+                <!-- RS Films & Studio -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card p-4 text-center">
+                        <div class="icon-box"><i class="fas fa-camera-movie"></i></div>
+                        <h3 class="h4 fw-bold mb-3">RS Films & Studio</h3>
+                        <p class="text-secondary small mb-0">Capturing your vision with absolute precision. A creative hub for indoor/outdoor professional shoots, podcasts, short films, and editorial content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section id="founder" class="py-5 bg-black bg-opacity-20">
+        <div class="container py-4">
+            <div class="founder-section p-4 p-md-5">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5 text-center">
+                        <div class="position-relative d-inline-block border border-2 gold-border rounded-3 overflow-hidden p-2" style="max-width: 320px;">
+                            <!-- Fallback placeholder maintaining exact color aesthetics -->
+                            <div style="width: 100%; height: 420px; background: #222; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                                <i class="fas fa-user-tie fs-1 gold-text mb-3"></i>
+                                <span class="text-muted fw-bold">Rony Fernandes</span>
+                                <span class="text-muted small">Founder Image Placeholder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <span class="text-uppercase fw-bold gold-text tracking-wider">The Visionary Behind RS Group</span>
+                        <h2 class="display-6 fw-bold my-2">Rony Fernandes</h2>
+                        <p class="lead gold-text mb-4">Founder & Driving Force</p>
+                        <p class="text-secondary">Under the leadership of Rony Fernandes, RS Group has grown into a highly reliable and unified ecosystem committed to absolute excellence. By blending diverse sectors under one premium roof, the brand ensures seamless execution for all of life's critical business and lifestyle milestones.</p>
+                        <div class="row pt-3 g-3">
+                            <div class="col-6 col-sm-4">
+                                <h4 class="fw-bold gold-text mb-1">Pan-India</h4>
+                                <p class="small text-muted mb-0">Operational Scope</p>
+                            </div>
+                            <div class="col-6 col-sm-4">
+                                <h4 class="fw-bold gold-text mb-1">4 Sectors</h4>
+                                <p class="small text-muted mb-0">Unified Ecosystem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Action Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-4 text-center">
+            <div class="max-width-600 mx-auto">
+                <h2 class="display-6 fw-bold mb-4">Ready to build your <span class="gold-text">Milestones</span>?</h2>
+                <p class="text-secondary mb-5">Get in touch directly via Call or WhatsApp for real estate solutions, travel packages, financial consultancy, or studio productions.</p>
+                
+                <div class="card bg-dark border gold-border p-4 mb-4 d-inline-block mx-auto rounded-3">
+                    <h3 class="h4 mb-3"><i class="fas fa-phone-alt gold-text me-2"></i>Direct Line</h3>
+                    <a href="tel:+916355375265" class="fs-3 fw-bold text-decoration-none text-white tracking-wide">+91 6355375265</a>
+                </div>
+
+                <div class="mt-4">
+                    <p class="text-muted mb-3">Follow Us on Social Media</p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-muted small">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 RS Group. All Rights Reserved.</p>
+            <p class="mb-0">Designed for Premium Personal and Commercial Lifestyle Management.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
